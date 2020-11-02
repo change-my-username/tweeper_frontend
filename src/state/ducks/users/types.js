@@ -1,0 +1,7 @@
+const ADD_USERS = "ADD_USERS"
+const SEARCH_USER = "SEARCH_USER"
+
+export {
+    ADD_USERS,
+    SEARCH_USER,
+}

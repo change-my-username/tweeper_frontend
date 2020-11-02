@@ -1,0 +1,42 @@
+.UserList {
+    grid-area: users;
+
+    width: 100%;
+    padding: 20px;
+
+    border-right: 1px solid var(--lineColor);
+    /* border-bottom: 1px solid var(--lineColor); */
+    border-left: 1px solid var(--lineColor)
+}
+
+.User {
+
+    border: 1px solid var(--lineColor);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    
+    transition: transform 0.2s linear, box-shadow 0.2s linear;
+}
+
+.User:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 11px 1px #ADADAD;
+}
+
+.UserLink {
+    display: flex;
+    align-items: center ;
+}
+
+.UserName {
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.Highlight {
+    
+    background-color: yellow;
+    
+}

@@ -1,0 +1,45 @@
+.CurrentTopics {
+   
+   
+    width: 80%;
+
+    background-color: #F5F8FA;
+    border-radius: 15px;
+}
+
+.Header {
+    padding: 10px 15px;
+
+    font-weight: 800;
+    font-size: 19px;
+
+    border-bottom: 1px solid var(--lineColor);
+
+}
+
+.ExpandButton {
+    
+    border: 1px solid #F5F8FA;
+    border-top: none;
+
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    background-color: inherit;
+    cursor: pointer;
+
+    width: 100%;
+
+    text-align: left;
+    padding: 15px;
+
+    font-size: 15px;
+    font-weight: 400;
+    
+    color: #2BA5F2;
+
+}
+
+.ExpandButton:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}

@@ -1,0 +1,88 @@
+.Wrapper{
+    grid-area: tweet;
+
+    padding-top: 10px;
+
+    display: flex;
+
+    border-bottom: 10px solid var(--lineColor);
+    border-right: 1px solid var(--lineColor);
+    border-left: 1px solid var(--lineColor);
+
+}
+
+.AvatarWrapper {
+    width: 80px;
+    
+}
+
+.AvatarLink {
+    width: 100%;
+
+}
+
+.Avatar { 
+    width: 50px;
+    height: 50px;
+
+    margin-left: auto;
+
+    border-radius: 50%;
+    /* object-fit: cover; */
+
+}
+
+.TweetFormWrapper {
+    width: 100%;
+    
+}
+
+.TweetForm{
+    white-space: pre-wrap;
+
+    display: inline-block;
+    word-break: break-all;
+
+    font-size: 19px;
+
+    padding: 10px;
+    width: 100%;
+
+    max-height: 400px;
+    overflow-y: auto;
+   
+
+}
+
+.TweetForm:focus {
+    outline: none;
+}
+
+.TweetForm[placeholder]:empty::before{
+    content: attr(placeholder);
+    color: #83919D;
+    cursor: text;
+
+}
+
+
+
+button.SendTweet {      /* ТАК ПЕРЕБИВАТЬ СТИЛИ ОЧЕНЬ ПЛОХО!!!!!!!!! */
+    display: block;
+    /* width: 170px; */
+   
+    padding: 8px 14px;
+
+    color: #fff;
+    background-color: var(--bgPrimaryColor);
+    
+    transition: background-color 0.2s linear;
+
+    margin: 10px 20px 10px auto;
+}
+
+button.SendTweet:hover {
+    background-color: rgb(26, 145, 218);
+}
+
+

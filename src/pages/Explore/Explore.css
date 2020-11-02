@@ -1,0 +1,9 @@
+.Grid {
+    display: grid;
+
+    grid-template:  "menu    search   other"   60px
+                    "menu    users    other"   auto
+                    "menu    users    other"   auto   / minmax(100px, 1fr) 1.5fr 1.2fr ;
+    
+}     
+

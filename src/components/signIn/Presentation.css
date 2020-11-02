@@ -1,0 +1,50 @@
+.Presentation {
+    width: 50%;
+    height: 100%;
+
+    background-color: #71C9F8;
+    color: #fff;
+
+    font-size: 19px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.SloganList {
+   z-index: 1;
+   padding: 15px;
+}
+
+.SloganItem {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.SloganIcon {
+    width: 24px;
+    height: 24px;
+
+    margin-right: 10px;
+
+}
+
+.BgTwitterIcon{
+    color: #1CA1F2;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+
+    transform: translate(-50%, -50%);
+
+    width: 190% !important ; 
+    height: 190% !important;
+}
+
