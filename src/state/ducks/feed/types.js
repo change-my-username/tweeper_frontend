@@ -1,5 +1,0 @@
-export const ADD_TWEET = 'ADD_TWEET'
-export const LIKE_TWEET = 'LIKE_TWEET'
-export const UPLOAD_FEED = 'UPLOAD_FEED'
-export const SEND_FEED = 'SEND_FEED'
-export const ADD_FEED_TO_STORE = 'ADD_FEED_TO_STORE'
